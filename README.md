@@ -8,7 +8,7 @@ Intended usage:
 
 // model/user.ts
 
-import { Document, ID, Version, String, Index, CompositeIndex } from '@finwo/query-engine/types';
+import { Document, ID, Version, String, Index, CompositeIndex } from '@finwo/query-engine/decorators';
 
 @Document({ adapter?: customAdapterInstance })
 @CompositeIndex('otherIndexName', {
